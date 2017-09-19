@@ -1,0 +1,18 @@
+{
+    "compileOnSave": false,
+    "buildOnSave": false,
+    "compilerOptions": {
+        "target": "es5",
+        "sourceMap": true,
+        "jsx": "react",
+        "outDir": "build",
+        "lib": ["dom", "es5", "es2015"],
+        "strictNullChecks": true
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "atom": {
+        "formatOnSave": "true"
+    }
+}
